@@ -46,6 +46,9 @@
       Templates are in the /templates folder (but you could also
       have templates inline in this html file if you'd like).
     -->
-    <ion-nav-view><a href="#/tab/login">Ionic has a fun bug with phonegap, click here to go on...</a></ion-nav-view>
+    <ion-nav-view></ion-nav-view>
+    <script>
+      window.location.replace('/#/tab/login');
+    </script>
   </body>
 </html>
